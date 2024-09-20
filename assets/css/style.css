@@ -260,20 +260,42 @@ body.nav-active {
 
 }
 
+.contact-buttons {
+
+  background-color: var(--cinnamon-satin);
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+  padding: 6px 28px;
+  max-width: max-content;
+  max-height: max-content;
+  border-radius: 200px;
+  transition: var(--transition-1);
+  will-change: transform;
+
+}
+
+.contact-buttons:is(:hover, :focus-visible) {
+  transform: translateY(-5px);
+}
+
 .btn-third {
   background-color: var(--cinnamon-satin);
   color: var(--white);
+  position: absolute;
+  margin-top: -20px;
   margin-left: 20px;
-  width: 180px;
+
+
 
 }
 
 .btn-fourth {
   background-color: var(--cinnamon-satin);
   color: var(--white);
-  margin-left: 170px;
-  width: 200px;
-  margin-top: -57px;
+  margin-left: 160px;
+  position: absolute;
+  margin-top: -20px;
 
 }
 
@@ -821,6 +843,13 @@ textarea.input-field {
     padding: 68px;
   }
 
+  .btn-third{
+    margin-top: -10px;
+  }
+
+  .btn-fourth{
+    margin-top: -10px;
+  }
 
 
   /**
