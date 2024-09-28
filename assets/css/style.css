@@ -334,21 +334,21 @@ body.nav-active {
 
 .freshlist {
 
-  margin-right: -50px;
+  margin-right: 10px;
 }
 
 .username-list {
 
-  margin-left: 250px;
+  margin-left: 190px;
 
 }
 
 .minecon-list {
-  margin-left: 250px;
+  margin-left: 190px;
 }
 
 .discord-list {
-  margin-left: 250px;
+  margin-left: 190px;
 }
 
 
@@ -683,7 +683,7 @@ body.nav-active {
   flex-direction: column;
   gap: var(--padding);
   border-radius: 30px;
-  width: 390px;
+  width: 330px;
   overflow: hidden;
   box-shadow: var(--shadow-1);
 }
