@@ -283,7 +283,7 @@ body.nav-active {
   background-color: var(--cinnamon-satin);
   color: var(--white);
   position: absolute;
-  margin-top: -120px;
+  margin-top: -60px;
   margin-left: 0px;
 
 
@@ -293,9 +293,9 @@ body.nav-active {
 .btn-fourth {
   background-color: var(--cinnamon-satin);
   color: var(--white);
-  margin-left: 0px;
+  margin-left: 140px;
   position: absolute;
-  margin-top: -50px;
+  margin-top: -60px;
 
 }
 
@@ -749,7 +749,7 @@ ul h1 {
   padding: 32px;
   border-radius: 30px;
   display: grid;
-  gap: 150px;
+  gap: 100px;
   max-width: max-content;
 }
 
