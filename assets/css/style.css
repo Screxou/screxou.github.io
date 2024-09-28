@@ -283,8 +283,8 @@ body.nav-active {
   background-color: var(--cinnamon-satin);
   color: var(--white);
   position: absolute;
-  margin-top: -20px;
-  margin-left: 20px;
+  margin-top: -120px;
+  margin-left: 0px;
 
 
 
@@ -293,9 +293,9 @@ body.nav-active {
 .btn-fourth {
   background-color: var(--cinnamon-satin);
   color: var(--white);
-  margin-left: 160px;
+  margin-left: 0px;
   position: absolute;
-  margin-top: -20px;
+  margin-top: -50px;
 
 }
 
@@ -749,7 +749,7 @@ ul h1 {
   padding: 32px;
   border-radius: 30px;
   display: grid;
-  gap: 40px;
+  gap: 150px;
   max-width: max-content;
 }
 
@@ -849,6 +849,7 @@ textarea.input-field {
 
   .btn-fourth{
     margin-top: -10px;
+    margin-left: 140px;
   }
 
 
